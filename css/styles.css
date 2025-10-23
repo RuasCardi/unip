@@ -13,16 +13,22 @@ header {
 }
 nav {
   margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
 }
 nav a {
   color: #fff;
   background: #0074d9;
   text-decoration: none;
-  margin: 0 12px;
+  margin: 0 4px;
   padding: 8px 18px;
   border-radius: 20px;
   font-weight: 500;
   transition: background 0.2s;
+  display: inline-block;
+  font-size: 1em;
 }
 nav a:hover {
   background: #003d6b;
@@ -95,4 +101,56 @@ footer {
   border-radius: 0 0 16px 16px;
   box-shadow: 0 -2px 8px rgba(0,0,0,0.08);
   width: 100%;
+}
+
+/* Responsividade */
+@media (max-width: 900px) {
+  section {
+    max-width: 98vw;
+    padding: 18px;
+  }
+  nav {
+    flex-direction: column;
+    gap: 6px;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 18px 0 12px 0;
+  }
+  section {
+    margin: 18px auto;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.07);
+  }
+  h2 {
+    font-size: 1.2em;
+  }
+  nav a {
+    font-size: 0.98em;
+    padding: 8px 10px;
+    margin: 0 2px;
+  }
+  .btn-doar {
+    font-size: 1em;
+    padding: 10px 18px;
+  }
+  .form-contato {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .form-contato input, .form-contato textarea {
+    font-size: 0.98em;
+    padding: 8px;
+  }
+  .form-contato button {
+    font-size: 0.98em;
+    padding: 8px 16px;
+  }
+  img {
+    max-width: 98vw !important;
+    height: auto !important;
+  }
 }
