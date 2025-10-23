@@ -60,4 +60,4 @@ O site apresenta informações sobre a entidade, seus valores, projetos, formas 
 
 ## Autor
 - Guilherme Cardinalli Ruas
-- [Seu e-mail institucional]
+- guilherme.silva299@aluno.unip.br
