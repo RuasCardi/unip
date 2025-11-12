@@ -1,12 +1,12 @@
-# Landing Page ONG Esperança
+# Landing Page ONG Planeta Azul
 
 Projeto desenvolvido para a disciplina **Gerenciamento de Projetos de Software** – Prof. Célia
 Universidade Paulista (UNIP)
 
 ## Descrição
-Landing page institucional para a ONG Esperança, voltada ao atendimento de crianças e adolescentes em situação de vulnerabilidade social, com foco em projetos esportivos, educacionais e de cidadania.
+Landing page institucional para a ONG Planeta Azul, dedicada à conservação dos mares, oceanos e habitats naturais, com foco em projetos ambientais, educação ecológica e cidadania planetária.
 
-O site apresenta informações sobre a entidade, seus valores, projetos, formas de doação, equipe, parceiros, depoimentos, galeria de fotos, relatórios de transparência e canais de contato.
+O site apresenta informações sobre a entidade, seus valores, projetos ambientais, formas de doação, equipe, parceiros, depoimentos, galeria de fotos, relatórios de transparência e canais de contato.
 
 ## Estrutura do Projeto
 - `index.html` – Página principal com todas as seções
@@ -15,8 +15,8 @@ O site apresenta informações sobre a entidade, seus valores, projetos, formas 
 - `fotos/` – Imagens utilizadas nas seções e galeria
 
 ## Funcionalidades
-- **Sobre a ONG:** História, missão, visão, valores e público atendido
-- **Projetos Sociais:** Detalhes dos projetos esportivos e educacionais, impacto na vida das crianças
+- **Sobre a ONG:** História, missão, visão, valores e público engajado
+- **Projetos Ambientais:** Detalhes dos projetos de conservação marinha, educação ecológica e impacto ambiental
 - **Depoimentos:** Relatos de beneficiados e voluntários
 - **Galeria de Fotos:** Imagens dos projetos e atividades
 - **Blog:** Link para blog institucional

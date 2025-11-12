@@ -1,5 +1,5 @@
 function doar() {
-  alert('Obrigado por apoiar a ONG Esperança!');
+  alert('Obrigado por apoiar a ONG Planeta Azul! Juntos pela conservação dos mares e do planeta.');
 }
 
 document.addEventListener('DOMContentLoaded', function() {

@@ -3,12 +3,13 @@ body {
   background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
   margin: 0;
   color: #222;
+    min-height: 100vh;
+    box-sizing: border-box;
 }
 header {
   background: #005eaa;
   color: #fff;
-  padding: 32px 0 24px 0;
-  text-align: center;
+    padding: 0;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 nav {
@@ -35,30 +36,31 @@ nav a:hover {
 }
 section {
   background: #fff;
-  margin: 32px auto;
-  padding: 32px;
-  border-radius: 12px;
-  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
-  max-width: 800px;
+    margin: 40px auto;
+    padding: 40px 32px;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    max-width: 900px;
 }
 h2 {
   color: #005eaa;
-  margin-bottom: 12px;
+    margin-bottom: 18px;
+    font-size: 2em;
 }
 .btn-doar {
   background: #ff9800;
   color: #fff;
   border: none;
-  padding: 12px 32px;
-  border-radius: 24px;
-  font-size: 1.1em;
+    padding: 14px 40px;
+    border-radius: 28px;
+    font-size: 1.15em;
   font-weight: bold;
   cursor: pointer;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 12px rgba(0,0,0,0.10);
   transition: background 0.2s;
 }
 .btn-doar:hover {
-  background: #e67c00;
+  background: #fb8c00;
 }
 .form-contato {
   display: flex;
@@ -150,6 +152,16 @@ footer {
     padding: 8px 16px;
   }
   img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.08em;
+  border-left: 4px solid #00bcd4;
+  margin: 0 0 12px 0;
+  margin-bottom: 18px;
+  padding-left: 22px;
     max-width: 98vw !important;
     height: auto !important;
   }
